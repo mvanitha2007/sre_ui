@@ -624,7 +624,6 @@ ul.social-icons{
 	font-weight:400;
 	padding-top:5px;
 	padding-bottom:5px;
-	0px 1px 3px rgba(0, 0, 0, 0.075) inset
 }
 .widget_search_properties .selectpicker{
 	padding-bottom:6px;
@@ -4424,8 +4423,6 @@ font: inherit;
 
 line-height: 22px;
 
-p;
-
 /* padding: 0.5em 3.5em 0.5em 1em; */
 
   /* reset */
@@ -4667,11 +4664,7 @@ box-sizing: border-box;
 .mob_form .btn-group{
 	width:100%;
 	}
-.mob_form .modal.in .modal-dialog{
-	/* background:#fff; */
-	/* height:100%; */
-	/* border: 2px solid #ccc; */
-	}	
+
 	
 .mob_form .modal-content {
     position: relative;
