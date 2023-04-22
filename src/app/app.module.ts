@@ -10,6 +10,9 @@ import { HomecontentComponent } from './homecontent/homecontent.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 
+import { HttpClientModule} from '@angular/common/http';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +26,11 @@ import { ContactusComponent } from './contactus/contactus.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
