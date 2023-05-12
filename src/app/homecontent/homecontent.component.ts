@@ -14,6 +14,7 @@ export class HomecontentComponent {
   constructor(private http:HttpClient ){}
 
   propertiesdata:any=[];
+  ImagePath= environment.PHOTO_URL;
 
   ngOnInit():void{
     this.getPropertiesData();
