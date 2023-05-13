@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2c4da698-0969-40c7-8c90-b1ae77383c80/resourceGroups/domositesgroup/providers/Microsoft.Web/sites/srewebappui",
+    "appService.deploySubpath": "."
+}
