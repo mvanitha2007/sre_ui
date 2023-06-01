@@ -9,9 +9,14 @@ import { FooterComponent } from './footer/footer.component';
 import { HomecontentComponent } from './homecontent/homecontent.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { SalesComponent } from './sales/sales.component';
+import { RentComponent } from './rent/rent.component';
+import { PostpropertyComponent } from './postproperty/postproperty.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 import { HttpClientModule} from '@angular/common/http';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { LeaseComponent } from './lease/lease.component';
 
 @NgModule({
   declarations: [
@@ -22,15 +27,21 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     HomecontentComponent,
     AboutusComponent,
-    ContactusComponent
+    ContactusComponent,
+    SalesComponent,
+    RentComponent,
+    PostpropertyComponent,
+    LeaseComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
-
+    ReactiveFormsModule,
+    Ng2SearchPipeModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
