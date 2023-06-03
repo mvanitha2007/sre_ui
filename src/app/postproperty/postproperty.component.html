@@ -1,364 +1,291 @@
 <div id="content" class="full">
-  <div class="inner_banner_main"><!--cotainer, pagestyle and contents-->
-    <div class="container">
-    <div class="col-md-6">
-      <h2>Post your properties</h2>
-    </div>
-    <div class="col-md-6">
-    
-    <ol class="breadcrumb">
-      <li><a href="http://swatirealestate.com">Home</a></li>
-      <li class="active">Post your properties</li>
-    </ol> 
-    
-    </div>
-    </div>
-  </div>
-<div class="clearfix"></div>
+    <div class="inner_banner_main"><!--cotainer, pagestyle and contents-->
+        <div class="container">
+            <div class="col-md-6">
+                <h2>Post your properties</h2>
+            </div>
+            <div class="col-md-6">
 
-<div class="container inner_page">
-    <div class="row">
-      <div class="col-md-8">
+                <ol class="breadcrumb">
+                    <li><a href="http://swatirealestate.com">Home</a></li>
+                    <li class="active">Post your properties</li>
+                </ol>
 
-
-
-<div class="widget">
-       
-  
-<div class="clearfix"></div>          
-
-<div id="description">
-<br>
-    <form id="listing" name="listing" method="post" enctype="multipart/form-data" action="#" onsubmit="return validate();">
-    
-   <h3 class="widgettitle mrgin_t_25">Personal Details</h3>
-    
-    <div class="form-group col-sm-12">
-        <label for="exampleInputEmail1">Your name <span class="red">*</span></label>
-        <input type="txt" name="name" required="" class="form-control" id="" placeholder="">
-    </div>
-    
-    <p>
-    <label for="radiobutton">Ownership Type</label> 
-     <input name="radiobutton" type="radio" value="Owner" checked="">Owner 
-    <input name="radiobutton" type="radio" value="Agent"> Agent
-        <input name="radiobutton" type="radio" value="Builder">Builder
-        
-    </p>
-    
-    <!--<div class=" col-sm-12">
-        <label for="exampleInputPassword1"  style="margin-bottom:15px; width:100%;">Ownership Type<span class="red">*</span></label>
-        <div class="clearfix"></div>
-        <div class="check_img">
-        <div class="col-md-2 col-sm-6 col-xs-6">
-        <div class="single-payment-method1 " >
-              <input type="radio"  value="Owner" id="a"  name="radiobutton">
-              <label for="a" class="single-payment-tile1"> <img src="images/owner.png"> <br>
-            <span class="check_span">Owner</span></label>
-          </div> 
-        </div>  
-          
-          <div class="col-md-2 col-sm-6 col-xs-6">
-          <div class="single-payment-method1 " >
-              <input type="radio" id="b" value="Agent" name="radiobutton">
-              <label for="b" class="single-payment-tile1"> <img src="images/agent.png">  <br>
-            <span class="check_span">Agent</span></label>
-          </div> 
-          </div>
-            
-          <div class="col-md-2 col-sm-6 col-xs-6">
-          <div class="single-payment-method1 " >
-              <input type="radio" id="b" value="Builder" name="radiobutton">
-              <label for="b" class="single-payment-tile1"> <img src="images/agent.png">  <br>
-            <span class="check_span">Builder</span></label>
-          </div> 
-          </div>
-            
-            
-          </div>
-</div> -->
-    
-    
-    
-    
-    <div class="clearfix"></div>
-    
-    <div class="form-group col-sm-12">
-    <label for="address">Address<span class="red">*</span></label>
-    <textarea name="address" required="" class="input-textarea form-control" rows="5" cols="1" id="address" title="message"></textarea>
-    </div>			
-    
-    <div class="form-group col-sm-6">
-    <label for="street">Street</label>
-    <input id="street" name="street" class="form-control" value="" title="Street" type="text">
-    </div>		
-    
-    <div class="form-group col-sm-6">
-    <label for="city">City</label>
-    <input id="city" name="city" class="form-control" value="" title="City" type="text">
-    </div>	
-    <div class="clearfix"></div>	
-    <div class="form-group col-sm-6">
-    <label for="state">State</label>
-    <input id="state" name="state" class="form-control" value="" title="State" type="text">
-    </div>
-    
-    
-    <div class="form-group col-sm-6">
-    <label for="zip">Zip / Pin Code</label>
-    <input id="zip" name="zip" value="" class="form-control" title="Zip" type="text">
-    </div>
-    <div class="clearfix"></div>	
-    
-    <div class="form-group col-sm-6">
-    <label for="phone">Contact Number <span class="red">*</span></label>
-    <input id="phone" name="phone" value="" class="form-control" title="Phone" type="text">
-    </div>
-    
-    
-    <div class="form-group col-sm-6">
-    <label for="email">E-mail address</label>
-    <input id="email" name="email" value="" class="form-control" title="email" type="text">
-    </div>	
-    <div class="clearfix"></div>		
-    
-      <h3 class="widgettitle mrgin_t_25">Property Details</h3>
-     <div class="clearfix"></div>
-    
-    <div class="form-group col-sm-6">
-        <label for="exampleInputEmail1">Purpose <span class="red">*</span></label>
-        <select class="form-control" required="" name="radiobutton2" fdprocessedid="z2h5oo">
-          <option value="Sell">Sell</option>
-          <option value="Rent">Rent</option>
-          <option value="Rent">Lease</option>
-        </select>
-    </div>
-    
-    <div class="form-group col-sm-6">
-        <label for="location">Location <span class="red">*</span></label>
-        <input id="email" name="Location" value="" class="form-control" title="Location" type="text">
-    </div>	
-    
-    <div class="clearfix"></div>
-    <div class="form-group col-sm-6">
-    <label for="property_category">Category<span class="red">*</span></label>
-    <select class="form-control" required="" name="property_category" id="property_category"  [(ngModel)]="selectedPropertyType.id"
-                (change)="onSelect($any($event.target).value)">
-                <option *ngFor="let propertytype of propertytypes" value={{propertytype.id}}>{{propertytype.name}}
-                </option>
-              </select>    
-    </div>	
-    
-    <div class="form-group col-sm-6">
-    <label for="property_type">Property Type <span class="red">*</span></label>
-    <select class="form-control" required="" [(ngModel)]="selectedSubType">
-        <option *ngFor="let propertysubtype of propertysubtypes" value={{propertysubtype.name}}>
-          {{propertysubtype.name}}</option>
-      </select>
-    </div>	
-    <div class="clearfix"></div>	
-        <div class="form-group col-sm-12"><div id="sqftdiv" class="">
-        </div></div><div class="clearfix"></div>	
-        <div class="form-group col-sm-4"><div id="bedroom" class=""></div></div>
-        <div class="form-group col-sm-4"><div id="bathroom" class=""></div></div>
-        <div class="form-group col-sm-4"><div id="parking" class=""></div></div>
-        <div class="clearfix"></div>	
-
-<script>
-$(document).ready(function () {
-    $("#property_category").change(function () {
-    var val = $(this).val();
-    if(val=="Commercial"){
-        //$("#pricediv").hide();
-        $("#property_type").html("<option value=''>Please select</option><option value='Commercial Building'>Commercial Building</option><option value='Office Space/Showroom'>Office Space/Showroom</option><option value='Commercial Land'>Commercial Land</option><option value='Godowns'>Godowns</option>");
-    }
-    else if(val=="Residential"){
-        $("#property_type").html("<option value=''>Please select</option><option value='House'>House</option><option value='Villa'>Villa</option><option value='Flat/Apartment'>Flat/Apartment</option><option value='House Plot'>House Plot</option>");
-    }
-    else if(val=="Agricultural_Land"){
-        //$("#pricediv").hide();
-        $("#property_type").html("<option value=''>Please select</option><option value='Agricultural_Land'>Agricultural Land</option>");
-    }
-      });
-    
-    $("#property_type").change(function () {
-        var val = $(this).val();
-        $("#bedroom").hide();
-        $("#bathroom").hide();
-        $("#parking").hide();
-        if (val == "Commercial Land" || val == "House Plot" || val =="Agricultural_Land") {
-        $("#sqftdiv").html("<label for='cent'>Cent<span class='red'></span></label><input id='cent' class='form-control' name='cent' value='' title='cent' type='text'/><label for='acre'>Acre<span class='red'>*</span></label><input id='acre' class='form-control' name='acre' value='' title='Acre' type='text'/>");
-        
-    }
-    else if (val == "House" || val == "Villa" || val =="Flat/Apartment") {
-        $("#sqftdiv").html("<label for='Square Feet'>Square Feet<span class='red'></span></label><input id='Squire_Feet' class='form-control' name='Squire_Feet' value='' title='Squire Feet' type='text'/>");
-        $("#bedroom").show();
-        $("#bathroom").show();
-        $("#parking").show();
-        $("#bedroom").html("<select id='bedroom' required name='bedroom'  class='selectpicker form-control'><option  value='0'>Select Bedroom</option><option  value='1'>1 Bedroom</option><option value='2'>2 Bedroom</option><option value='3'>3 Bedroom</option><option value='4'>4+ Bedroom</option></select>");
-        $("#bathroom").html("<select id='bathroom' required name='bathroom' class='selectpicker form-control'><option  value='0'>Select Bathroom</option><option  value='1'>1 Bathroom</option><option value='2'>2 Bathroom</option><option value='3'>3 Bathroom</option><option value='4'>4+ Bathroom</option></select>");
-        $("#parking").html("<select id='parking' required name='parking' class='selectpicker form-control'><option  value='0'>Select Parking</option><option  value='Yes'>Yes</option><option value='No'>No </option></select>");
-    }
-    else{
-        $("#bedroom").hide();
-        $("#bathroom").hide();
-        $("#parking").hide();
-        $("#sqftdiv").html("<label for='Square Feet'>Square Feet<span class='red'>*</span></label><input id='Squire_Feet' class='form-control' name='Squire_Feet' value='' title='Squire Feet' type='text'/>");
-    } 
-    });
-    
-});
-</script>
-
-<div class="form-group col-sm-12">
-    <label for="exp_price">Expected Price (Rs)<span class="vmax3">*</span></label>
-      <select class="form-control" name="exp_price" id="exp_price">
-                        
-<option value="Select">Select one from below</option>
-<option value="">Any</option>
-<option value="1">Below 1 Lakhs</option><option value="2">2 Lakhs</option><option value="3">3 Lakhs</option><option value="4">4 Lakhs</option><option value="5">5 Lakhs</option><option value="6">6 Lakhs</option><option value="7">7 Lakhs</option><option value="8">8 Lakhs</option><option value="9">9 Lakhs</option><option value="10">10 Lakhs</option><option value="11">11 Lakhs</option><option value="12">12 Lakhs</option><option value="13">13 Lakhs</option><option value="14">14 Lakhs</option><option value="15">15 Lakhs</option><option value="16">16 Lakhs</option><option value="17">17 Lakhs</option><option value="18">18 Lakhs</option><option value="19">19 Lakhs</option><option value="20">20 Lakhs</option><option value="21">21 Lakhs</option><option value="22">22 Lakhs</option><option value="23">23 Lakhs</option><option value="24">24 Lakhs</option><option value="25">25 Lakhs</option><option value="26">26 Lakhs</option><option value="27">27 Lakhs</option><option value="28">28 Lakhs</option><option value="29">29 Lakhs</option><option value="30">30 Lakhs</option><option value="31">31 Lakhs</option><option value="32">32 Lakhs</option><option value="33">33 Lakhs</option><option value="34">34 Lakhs</option><option value="35">35 Lakhs</option><option value="36">36 Lakhs</option><option value="37">37 Lakhs</option><option value="38">38 Lakhs</option><option value="39">39 Lakhs</option><option value="40">40 Lakhs</option><option value="41">41 Lakhs</option><option value="42">42 Lakhs</option><option value="43">43 Lakhs</option><option value="44">44 Lakhs</option><option value="45">45 Lakhs</option><option value="46">46 Lakhs</option><option value="47">47 Lakhs</option><option value="48">48 Lakhs</option><option value="49">49 Lakhs</option><option value="50">50 Lakhs</option><option value="51">51 Lakhs</option><option value="52">52 Lakhs</option><option value="53">53 Lakhs</option><option value="54">54 Lakhs</option><option value="55">55 Lakhs</option><option value="56">56 Lakhs</option><option value="57">57 Lakhs</option><option value="58">58 Lakhs</option><option value="59">59 Lakhs</option><option value="60">60 Lakhs</option><option value="61">61 Lakhs</option><option value="62">62 Lakhs</option><option value="63">63 Lakhs</option><option value="64">64 Lakhs</option><option value="65">65 Lakhs</option><option value="66">66 Lakhs</option><option value="67">67 Lakhs</option><option value="68">68 Lakhs</option><option value="69">69 Lakhs</option><option value="70">70 Lakhs</option><option value="71">71 Lakhs</option><option value="72">72 Lakhs</option><option value="73">73 Lakhs</option><option value="74">74 Lakhs</option><option value="75">75 Lakhs</option><option value="76">76 Lakhs</option><option value="77">77 Lakhs</option><option value="78">78 Lakhs</option><option value="79">79 Lakhs</option><option value="80">80 Lakhs</option><option value="81">81 Lakhs</option><option value="82">82 Lakhs</option><option value="83">83 Lakhs</option><option value="84">84 Lakhs</option><option value="85">85 Lakhs</option><option value="86">86 Lakhs</option><option value="87">87 Lakhs</option><option value="88">88 Lakhs</option><option value="89">89 Lakhs</option><option value="90">90 Lakhs</option><option value="91">91 Lakhs</option><option value="92">92 Lakhs</option><option value="93">93 Lakhs</option><option value="94">94 Lakhs</option><option value="95">95 Lakhs</option><option value="96">96 Lakhs</option><option value="97">97 Lakhs</option><option value="98">98 Lakhs</option><option value="99">99 Lakhs</option><option value="100">1 Crore</option><option value="101">1.5 Crore</option><option value="102">2 Crore</option><option value="103">2.5 Crore</option><option value="104">3 Crore</option><option value="105">3.5 Crore</option><option value="106">4 Crore</option><option value="107">4.5 Crore</option><option value="108">5 Crore</option><option value="109">Above 10 Crore</option>
-<option value="other">Other</option>
-    </select>
+            </div>
         </div>
-        
-    <div class="form-group col-sm-12" id="other_option" style="display: none;">
-    <label for="other_price">If Other Please Specify</label>
-    <input id="other_price" name="other_price" class="form-control" value="" title="Price" type="text">
-    </div>					
-    
+    </div>
     <div class="clearfix"></div>
-    
-    
-    <div class="form-group col-sm-12">
-    <label for="title">Title of property</label>
-    <input id="title" name="title" value="" class="form-control" title="title" type="text">
-    </div>	
-    
-    
-    <div class="form-group col-sm-12">
-    <label for="message">Description of property <span class="vmax3">*</span></label>
-    <textarea name="message" class="input-textarea form-control" rows="5" cols="1" id="message" tabindex="4" title="message"></textarea>
-    </div>	
-    <div class="clearfix"></div>
-     <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=places&amp;key=AIzaSyCOpnWY1ro-jfDg1EyaG-B5H8oAaYYwLyA"></script>
-<script src="locationpicker.jquery.js"></script>
-    <div class=" col-sm-12">
-        
-                <div class="form-group">
-                    <label>Please re-enter the same Location as above for getting latitude and longitude:</label>                        
-                    <input type="text" class="form-control" id="us2-address">
-                </div></div>
-                <div class="clearfix"></div>
-                <!--div class="form-group">
-                    <label class="control-label">Radius:</label>
-                    <input type="text" class="form-control" id="us2-radius" />
-                </div-->
-                <div class=" col-sm-12">
-                <div id="us2" style="width: 600px; height: 400px;"></div></div>
-                <div class="clearfix"></div>
-               <div class=" col-sm-12">
-                    <label class="">Google Map Link:</label>
-                    <input type="text" class="form-control" name="latitude" id="us2-lat">
+
+    <div class="container inner_page">
+        <div class="row">
+            <div class="col-md-8">
+
+
+
+                <div class="widget">
+
+
+                    <div class="clearfix"></div>
+
+                    <div id="description">
+                        <br>
+                        <form #form="ngForm" id="listing" name="listing" method="post" enctype="multipart/form-data" 
+                            (ngSubmit)="submitForm()">
+
+                            <h3 class="widgettitle mrgin_t_25">Personal Details</h3>
+
+                            <div class="form-group col-sm-12">
+                                <label for="exampleInputEmail1">Your name <span class="red">*</span></label>
+                                <input type="txt" [(ngModel)]="personName" name="name" required="" class="form-control" id="" placeholder="">
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <div class="form-group col-sm-12">
+                                <label for="radiobutton">Ownership Type</label> &nbsp;
+                                <input [(ngModel)]="ownershipType" name="radiobutton" type="radio" value="Owner" checked=""> Owner
+                                <input [(ngModel)]="ownershipType" name="radiobutton" type="radio" value="Agent"> Agent
+                                <input [(ngModel)]="ownershipType" name="radiobutton" type="radio" value="Builder"> Builder
+                            </div>
+
+
+
+                            <div class="form-group col-sm-12">
+                                <label for="address">Address<span class="red">*</span></label>
+                                <textarea [(ngModel)]="personAddress" name="address" required="" class="input-textarea form-control" rows="4"
+                                    cols="1" id="address" title="message"></textarea>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="street">Street</label>
+                                <input id="street" [(ngModel)]="street" name="street" class="form-control" value="" title="Street"
+                                    type="text">
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="city">City</label>
+                                <input id="city" [(ngModel)]="city" name="city" class="form-control" value="" title="City" type="text">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-sm-6">
+                                <label for="state">State</label>
+                                <input id="state" [(ngModel)]="state" name="state" class="form-control" value="" title="State" type="text">
+                            </div>
+
+
+                            <div class="form-group col-sm-6">
+                                <label for="zip">Zip / Pin Code</label>
+                                <input id="zip" [(ngModel)]="zip" name="zip" value="" class="form-control" title="Zip" type="text">
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="phone">Contact Number <span class="red">*</span></label>
+                                <input id="phone" [(ngModel)]="contactNumber" name="phone" value="" class="form-control" title="Phone" type="text">
+                            </div>
+
+
+                            <div class="form-group col-sm-6">
+                                <label for="email">E-mail address</label>
+                                <input id="email" [(ngModel)]="emailAddress" name="email" value="" class="form-control" title="email" type="text">
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <h3 class="widgettitle mrgin_t_25">Property Details</h3>
+                            <div class="clearfix"></div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="exampleInputEmail1">Purpose <span class="red">*</span></label>
+                                <select [(ngModel)]="purpose" class="form-control" required="" name="radiobutton2" fdprocessedid="z2h5oo">
+                                    <option value="Sell">Sell</option>
+                                    <option value="Rent">Rent</option>
+                                    <option value="Rent">Lease</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="location">Location <span class="red">*</span></label>
+                                <input id="location" [(ngModel)]="location" name="Location" value="" class="form-control" title="Location"
+                                    type="text">
+                            </div>
+
+                            <div class="clearfix"></div>
+                            <div class="form-group col-sm-6">
+                                <label for="property_category">Category<span class="red">*</span></label>
+                                <select class="form-control" [(ngModel)]="propertyType" required="" name="property_category" id="property_category"
+                                    [(ngModel)]="selectedPropertyType.id"
+                                    (change)="onSelect($any($event.target).value)">
+                                    <option *ngFor="let propertytype of propertytypes" value={{propertytype.id}}>
+                                        {{propertytype.name}}
+                                    </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-sm-6">
+                                <label for="property_type">Property Type <span class="red">*</span></label>
+                                <select class="form-control" [(ngModel)]="propertySubtype" name="property_subtype" required="" [(ngModel)]="selectedSubType">
+                                    <option *ngFor="let propertysubtype of propertysubtypes"
+                                        value={{propertysubtype.name}}>
+                                        {{propertysubtype.name}}</option>
+                                </select>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-sm-12">
+                                <div id="sqftdiv" class="">
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-sm-4">
+                                <div id="bedroom" class=""></div>
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <div id="bathroom" class=""></div>
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <div id="parking" class=""></div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <script>
+                                $(document).ready(function () {
+                                    $("#property_category").change(function () {
+                                        var val = $(this).val();
+                                        if (val == "Commercial") {
+                                            //$("#pricediv").hide();
+                                            $("#property_type").html("<option value=''>Please select</option><option value='Commercial Building'>Commercial Building</option><option value='Office Space/Showroom'>Office Space/Showroom</option><option value='Commercial Land'>Commercial Land</option><option value='Godowns'>Godowns</option>");
+                                        }
+                                        else if (val == "Residential") {
+                                            $("#property_type").html("<option value=''>Please select</option><option value='House'>House</option><option value='Villa'>Villa</option><option value='Flat/Apartment'>Flat/Apartment</option><option value='House Plot'>House Plot</option>");
+                                        }
+                                        else if (val == "Agricultural_Land") {
+                                            //$("#pricediv").hide();
+                                            $("#property_type").html("<option value=''>Please select</option><option value='Agricultural_Land'>Agricultural Land</option>");
+                                        }
+                                    });
+
+                                    $("#property_type").change(function () {
+                                        var val = $(this).val();
+                                        $("#bedroom").hide();
+                                        $("#bathroom").hide();
+                                        $("#parking").hide();
+                                        if (val == "Commercial Land" || val == "House Plot" || val == "Agricultural_Land") {
+                                            $("#sqftdiv").html("<label for='cent'>Cent<span class='red'></span></label><input id='cent' class='form-control' name='cent' value='' title='cent' type='text'/><label for='acre'>Acre<span class='red'>*</span></label><input id='acre' class='form-control' name='acre' value='' title='Acre' type='text'/>");
+
+                                        }
+                                        else if (val == "House" || val == "Villa" || val == "Flat/Apartment") {
+                                            $("#sqftdiv").html("<label for='Square Feet'>Square Feet<span class='red'></span></label><input id='Squire_Feet' class='form-control' name='Squire_Feet' value='' title='Squire Feet' type='text'/>");
+                                            $("#bedroom").show();
+                                            $("#bathroom").show();
+                                            $("#parking").show();
+                                            $("#bedroom").html("<select id='bedroom' required name='bedroom'  class='selectpicker form-control'><option  value='0'>Select Bedroom</option><option  value='1'>1 Bedroom</option><option value='2'>2 Bedroom</option><option value='3'>3 Bedroom</option><option value='4'>4+ Bedroom</option></select>");
+                                            $("#bathroom").html("<select id='bathroom' required name='bathroom' class='selectpicker form-control'><option  value='0'>Select Bathroom</option><option  value='1'>1 Bathroom</option><option value='2'>2 Bathroom</option><option value='3'>3 Bathroom</option><option value='4'>4+ Bathroom</option></select>");
+                                            $("#parking").html("<select id='parking' required name='parking' class='selectpicker form-control'><option  value='0'>Select Parking</option><option  value='Yes'>Yes</option><option value='No'>No </option></select>");
+                                        }
+                                        else {
+                                            $("#bedroom").hide();
+                                            $("#bathroom").hide();
+                                            $("#parking").hide();
+                                            $("#sqftdiv").html("<label for='Square Feet'>Square Feet<span class='red'>*</span></label><input id='Squire_Feet' class='form-control' name='Squire_Feet' value='' title='Squire Feet' type='text'/>");
+                                        }
+                                    });
+
+                                });
+                            </script>
+
+                            <div class="form-group col-sm-12">
+                                <label for="exp_price">Expected Price (Rs)<span class="vmax3">*</span></label>
+                                <input id="price" [(ngModel)]="price" name="price" value="" class="form-control" title="price" type="text">
+                            </div>
+
+                            <div class="form-group col-sm-12" id="other_option" style="display: none;">
+                                <label for="other_price">If Other Please Specify</label>
+                                <input id="other_price" name="other_price" class="form-control" value="" title="Price"
+                                    type="text">
+                            </div>
+
+                            <div class="clearfix"></div>
+
+
+                            <div class="form-group col-sm-12">
+                                <label for="title">Title of property</label>
+                                <input id="title" [(ngModel)]="propertytitle" name="title" value="" class="form-control" title="title" type="text">
+                            </div>
+
+
+                            <div class="form-group col-sm-12">
+                                <label for="message">Description of property <span class="vmax3">*</span></label>
+                                <textarea name="message" [(ngModel)]="propertyDescription" class="input-textarea form-control" rows="5" cols="1"
+                                    id="message" tabindex="4" title="message"></textarea>
+                            </div>
+                            <div class="clearfix"></div>
+                            <script type="text/javascript"
+                                src="https://maps.google.com/maps/api/js?sensor=false&amp;libraries=places&amp;key=AIzaSyCOpnWY1ro-jfDg1EyaG-B5H8oAaYYwLyA"></script>
+                            <script src="locationpicker.jquery.js"></script>
+                            <div class=" col-sm-12">
+
+                            </div>
+
+
+                            <div class="clearfix"></div>
+                            <div class=" col-sm-12">
+                                <label class="">Google Map Link:</label>
+                                <input type="text" [(ngModel)]="mapURL" class="form-control" name="latitude" id="us2-lat">
+                            </div>
+
+                            <div class="clearfix"></div>
+
+
+                            <script>
+                                $('#us2').locationpicker({
+                                    location: {
+                                        latitude: 11.2587531,
+                                        longitude: 75.78041000000007
+                                    },
+                                    radius: 300,
+                                    inputBinding: {
+                                        latitudeInput: $('#us2-lat'),
+                                        longitudeInput: $('#us2-lon'),
+                                        // radiusInput: $('#us2-radius'),
+                                        locationNameInput: $('#us2-address')
+                                    },
+                                    enableAutocomplete: true
+                                });
+                            </script>
+                            <div class="clearfix"></div>
+                            <div class=" col-sm-12">
+                                <p>Only .jpg,. gif images under 250Kb are accepted for upload</p>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label for="file">Upload Photo</label>
+                                <input type="file" [(ngModel)]="imageFileName" name="file" (change)="imageUpload($event)">
+                            </div>
+
+
+
+                            <div class="form-group col-sm-12">
+                                <div class="checkbox">
+                                    <label><input name="CHKBOX_1" type="checkbox" id="agree" value="1">
+                                        Due to background verification, Posted property will be displayed in main page
+                                        within 3 days. I accept terms and conditions of <a
+                                            href="terms">www.swatirealestate.com</a></label>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+
+                            <p>
+                                <span class="remember"><input id="signin_submit" name="signin_submit"
+                                        value="Post Property" class="btn btn-primary mrg_t_15 mrg_b_15"
+                                        type="submit"></span>
+                            </p>
+                        </form>
+                    </div>
                 </div>
-                <!--<div class="clearfix"></div>
-                <div class=" col-sm-12">
-                    <label class="">Longitude:</label>                       
-                    <input type="text" class="form-control" name="longitude" id="us2-lon">                        
-                </div>-->
-                <div class="clearfix"></div>
-          
-    
-     <script>
-                $('#us2').locationpicker({
-                    location: {
-                        latitude: 11.2587531,
-                        longitude: 75.78041000000007
-                    },
-                    radius: 300,
-                    inputBinding: {
-                        latitudeInput: $('#us2-lat'),
-                        longitudeInput: $('#us2-lon'),
-                       // radiusInput: $('#us2-radius'),
-                        locationNameInput: $('#us2-address')
-                    },
-                    enableAutocomplete: true
-                });
-            </script>
-    <div class="clearfix"></div>
-     <div class=" col-sm-12">
-<p>Only .jpg,. gif images under 250Kb are accepted for upload</p>
-</div>
-     <div class="form-group col-sm-6">
-    <label for="file">Upload Photo</label>
-    <input type="file" name="file">		
-    </div>	
-    
-    <!--<div class="form-group col-sm-6">
-    <label for="file2">Upload another image</label>
-    <input type="file" name="file2">		
+
+            </div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
     </div>
-    <div class="clearfix"></div>
-    <div class="form-group col-sm-6">
-    <label for="file3">Upload another image</label>
-    <input type="file" name="file3">		
-    </div>
-    
-    <div class="form-group col-sm-6"><label for="file4">Upload another image</label>
-    <input type="file" name="file4">		
-    </div>
-    <div class="clearfix"></div> -->	
-
-    <div class="form-group col-sm-12">
-     <div class="checkbox">
-<label><input name="CHKBOX_1" type="checkbox" id="agree" value="1">
-    Due to background verification, Posted property will be displayed in main page within 3 days. I accept terms and conditions of <a href="terms">www.swatirealestate.com</a></label>
-</div>	
-    </div>
-    <div class="clearfix"></div>
-
-    <p>
-    <span class="remember"><input id="signin_submit" name="signin_submit" value="Post Property" class="btn btn-primary mrg_t_15 mrg_b_15" type="submit"></span>
-    </p>
-    </form>
-</div></div>
-
-</div><!--/col-left-->
-<!--<div class="sidebar right-sidebar col-md-4 ">
-                  <div class="widget">
-
-
-<div class="col-md-12">
-<h4>Asset Homes</h4>
-<div id="wowslider-container1">
-<div class="ws_images"><ul>
-<li><img src="images/add2.jpg" alt="add2" title="add2" id="wows1_0"/></li>
-<li><img src="images/add3.jpg" alt="add3" title="add3" id="wows1_1"/></li>
-</ul></div>
-<div class="ws_shadow"></div>
-</div>
-</div>                     
-
-
-
-<div class="col-md-12 ">
-<h4>AZIZI DUBAI</h4>
-<iframe width="100%" height="80" src="https://www.youtube.com/embed/NNTZ_YMDfYE" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
-</div>
-
-<div class="col-md-12 ">
-<h4>Sobha</h4>
-<img src="images/add1.jpg" class="img-responsive">
-
-</div> 
-
-                  </div>
-      </div>  -->
-      
-      
-      <div class="clearfix"></div>
-
-</div>
-
-</div>
 </div>
