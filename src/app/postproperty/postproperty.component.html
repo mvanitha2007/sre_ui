@@ -264,7 +264,9 @@
 
                             <div class="form-group col-sm-12">
                                 <div class="checkbox">
-                                    <label><input name="CHKBOX_1" type="checkbox" id="agree" value="1">
+                                    <label>
+                                        <!-- <input name="CHKBOX_1" type="checkbox" id="agree" value="1"> -->
+                                        <input type="checkbox"  onchange="document.getElementById('signin_submit').disabled = !this.checked;" />
                                         Due to background verification, Posted property will be displayed in main page
                                         within 3 days. I accept terms and conditions of <a
                                             href="terms">www.swatirealestate.com</a></label>
@@ -275,7 +277,7 @@
                             <p>
                                 <span class="remember"><input id="signin_submit" name="signin_submit"
                                         value="Post Property" class="btn btn-primary mrg_t_15 mrg_b_15"
-                                        type="submit"></span>
+                                        type="submit" disabled></span>
                             </p>
                         </form>
                     </div>

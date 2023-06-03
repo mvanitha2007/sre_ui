@@ -5,38 +5,7 @@
                 <a href="post-property"><img src="images/post-button1.png" alt="apartments"
                         class="img-responsive"></a>
             </div>
-        </div>
-        <div class="container hidden-lg hidden-md hidden-sm">
-            <div class="mob_form">
-
-                
-                    <div class="col-sm-12">
-                        <div class="btn-group">
-                            <select name="select_for" required class="btn dropdown-toggle" data-toggle="modal"
-                                data-target=".bs-example-modal-sm">
-                                <option value="">Property Type</option>
-                                <option value="Sell">Buy</option>
-                                <option value="Rent">Rent</option>
-                            </select>
-
-                        </div>
-
-                    </div>
-                    <div class="col-sm-12">
-                        <div class="btn-group">
-                            <select required class="form-control input-lg select minimal" name="select_type">
-                                <option value="">Property</option>
-                                <option value="Commercial">Commercial</option>
-                                <option value="Residential">Residential</option>
-                                <option value="Agricultural_Land">Agricultural Land</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-12">
-                        <input type="submit" name="submit" value="Search" class="btn btn-primary btn-block btn-lg">
-                    </div>
-            </div>            
-        </div>
+        </div>       
 
         <div id="featured-properties">
             
@@ -62,7 +31,7 @@
                                 </h4>
                                 <span class="location">Location: {{prop.location}} <br>
                                     Area : </span>
-                                <div class="price"><span><strong>RS</strong><span>99,00,000</span></span>
+                                <div class="price"><span><strong>RS</strong><span>{{prop.price}}</span></span>
                                     </div>
                             </div>
                                 
