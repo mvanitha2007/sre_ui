@@ -103,6 +103,6 @@ export class PostpropertyComponent implements OnInit{
     console.log("Image Name" + val.imageFileName);
     console.log("post property button clicked");
     this.http.post(environment.API_URL+"Properties", val)
-    .subscribe(res => { alert("Data added Successfully.")});
+    .subscribe(res => { alert("Thanks for contacting us, Data added Successfully.")});
   }
 }
